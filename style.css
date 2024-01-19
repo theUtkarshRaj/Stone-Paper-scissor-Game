@@ -1,0 +1,45 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  text-align: center;
+  width:100%;
+  height:680px;
+  background: #000;
+  
+}
+h1{
+  margin-bottom:15px;
+  color:#dfdcdd;
+}
+.btn{
+  padding:10px;
+  margin:10px;
+  background:#0b51b9;
+  color:aliceblue;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: transform 0.5s
+}
+.btn_img{
+  height:120px;
+  
+}
+.btn:hover{
+  transform:scale(1.05);
+}
+h3{
+  font-size: 25px;
+  font-style:inherit;
+  margin-top: 10px;
+  color:#ffffff;
+}
+#logo{
+  width: 150px;;
+  position: fixed;top:0px;left:0px;
+}
+#score{
+  font-size:35px;
+}

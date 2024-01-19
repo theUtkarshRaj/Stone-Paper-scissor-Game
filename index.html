@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAME</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="div">
+    <h1>Rock Paper Scissor Game</h1>
+    <img src="utkarsh logo.jpeg" id="logo" alt="">
+    <button class="btn" onclick="afterClick('stone')">
+      <img src="stone.png" alt="stone" class="btn_img"></button>
+
+    <button class="btn" onclick="afterClick('paper')">
+      <img src="paper.png" alt="paper" class="btn_img"></button>
+
+
+    <button class="btn" onclick="afterClick('scissor')">
+      <img src="scissor.png" alt="scissor" class="btn_img"></button>
+
+    <div class="output">
+      <h3 id="user-move"></h3>
+      <h3 id="comp-move"></h3>
+      <h3 id="result"></h3>
+      <h3 id="score"></h3>
+    </div>
+    
+    <button class="btn" onclick="sound();localStorage.clear()
+    resetscore();
+    ">RESET</button>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
